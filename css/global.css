@@ -22,6 +22,10 @@ header {
 main {
     margin-inline: auto; /*colocar a mesma margin nos dois lados*/
     width: fit-content; /*se ajustar com o tamanha necessário para os elementos*/
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
 
 }
 
